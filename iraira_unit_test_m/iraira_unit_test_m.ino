@@ -43,7 +43,7 @@ void setup(){
  */
 void loop(){
   static int count = 0;
-  Serial.println("$ count = " + String(count));
+  Serial.println("$ count = " + String(count++));
   
   int dip = get_slave_address();
   Serial.println("# dip_value = " + String(dip));
