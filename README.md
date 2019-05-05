@@ -14,7 +14,7 @@
 
 ## ログの見方
 - `iraira_unit_test_m.ino`を書き込んだArduinoから以下のようなログが出力される
-<img src="https://github.com/Lchika/iraira_bo_unit_test/blob/master/pic/result.PNG" width="400px">  
+<img src="https://github.com/Lchika/iraira_bo_unit_test/blob/master/pic/result.PNG" width="400px">
   - `count`はloop()が呼ばれた回数
   - `dip_value`はDIPスイッチの値
   - `photo_state`はフォトインタラプタの値
